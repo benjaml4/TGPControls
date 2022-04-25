@@ -24,7 +24,7 @@ let package = Package(
         .target(
             name: "TGPControls",
             dependencies: [],
-            path: "Sources"
+            path: ""
         )
     ]
 )
