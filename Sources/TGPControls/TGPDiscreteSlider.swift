@@ -18,7 +18,7 @@ public class TGPSlider_INTERFACE_BUILDER:UIControl {
 #endif // TARGET_INTERFACE_BUILDER
 
 @IBDesignable
-open class TGPDiscreteSlider:TGPSlider_INTERFACE_BUILDER {
+public class TGPDiscreteSlider:TGPSlider_INTERFACE_BUILDER {
 
     @IBInspectable public var tickStyle:Int = ComponentStyle.rectangular.rawValue {
         didSet {
