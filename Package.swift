@@ -14,6 +14,7 @@ let package = Package(
     targets: [
         .target(
             name: "TGPControls",
-//             dependencies: []),
-    ]
+            dependencies: []),
+    ],
+    swiftLanguageVersions: [.v5]
 )
