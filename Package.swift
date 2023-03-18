@@ -16,6 +16,5 @@ let package = Package(
             name: "TGPControls",
             dependencies: []),
             path: "Sources"),
-    ],
-    swiftLanguageVersions: [.v5]
+    ]
 )
