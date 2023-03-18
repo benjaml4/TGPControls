@@ -4,7 +4,7 @@ import PackageDescription
 let package = Package(
     name: "TGPControls",
     platforms: [
-        .iOS(.v16)
+        .iOS(.v13)
     ],
     products: [
         .library(
