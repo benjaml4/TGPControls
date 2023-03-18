@@ -3,23 +3,16 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 56;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		DC56BE021E46EA2000AAD0D9 /* TGPControls.h in Headers */ = {isa = PBXBuildFile; fileRef = DC56BE001E46EA2000AAD0D9 /* TGPControls.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DC88CC4E1E46EAD10076AC65 /* TGPCamelLabels.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC88CC4B1E46EAD10076AC65 /* TGPCamelLabels.swift */; };
-		DC88CC4F1E46EAD10076AC65 /* TGPControlsTicksProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC88CC4C1E46EAD10076AC65 /* TGPControlsTicksProtocol.swift */; };
-		DC88CC501E46EAD10076AC65 /* TGPDiscreteSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC88CC4D1E46EAD10076AC65 /* TGPDiscreteSlider.swift */; };
+		D87B568729C6141600624F8C /* TGPControls in Resources */ = {isa = PBXBuildFile; fileRef = D87B568029C6141600624F8C /* TGPControls */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D87B568029C6141600624F8C /* TGPControls */ = {isa = PBXFileReference; lastKnownFileType = folder; name = TGPControls; path = Sources/TGPControls; sourceTree = "<group>"; };
 		DC56BDFD1E46EA2000AAD0D9 /* TGPControls.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TGPControls.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		DC56BE001E46EA2000AAD0D9 /* TGPControls.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TGPControls.h; sourceTree = "<group>"; };
-		DC56BE011E46EA2000AAD0D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DC88CC4B1E46EAD10076AC65 /* TGPCamelLabels.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGPCamelLabels.swift; sourceTree = "<group>"; };
-		DC88CC4C1E46EAD10076AC65 /* TGPControlsTicksProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGPControlsTicksProtocol.swift; sourceTree = "<group>"; };
-		DC88CC4D1E46EAD10076AC65 /* TGPDiscreteSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TGPDiscreteSlider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,7 +29,7 @@
 		DC56BDF31E46EA2000AAD0D9 = {
 			isa = PBXGroup;
 			children = (
-				DC56BDFF1E46EA2000AAD0D9 /* TGPControls */,
+				D87B568029C6141600624F8C /* TGPControls */,
 				DC56BDFE1E46EA2000AAD0D9 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -49,18 +42,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		DC56BDFF1E46EA2000AAD0D9 /* TGPControls */ = {
-			isa = PBXGroup;
-			children = (
-				DC56BE001E46EA2000AAD0D9 /* TGPControls.h */,
-				DC88CC4B1E46EAD10076AC65 /* TGPCamelLabels.swift */,
-				DC88CC4C1E46EAD10076AC65 /* TGPControlsTicksProtocol.swift */,
-				DC88CC4D1E46EAD10076AC65 /* TGPDiscreteSlider.swift */,
-				DC56BE011E46EA2000AAD0D9 /* Info.plist */,
-			);
-			path = TGPControls;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -68,7 +49,6 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC56BE021E46EA2000AAD0D9 /* TGPControls.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -104,16 +84,17 @@
 				TargetAttributes = {
 					DC56BDFC1E46EA2000AAD0D9 = {
 						CreatedOnToolsVersion = 8.2.1;
-						LastSwiftMigration = 0940;
+						LastSwiftMigration = 1420;
 						ProvisioningStyle = Automatic;
 					};
 				};
 			};
 			buildConfigurationList = DC56BDF71E46EA2000AAD0D9 /* Build configuration list for PBXProject "TGPControls" */;
-			compatibilityVersion = "Xcode 9.3";
+			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = DC56BDF31E46EA2000AAD0D9;
@@ -131,6 +112,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D87B568729C6141600624F8C /* TGPControls in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,9 +123,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DC88CC501E46EAD10076AC65 /* TGPDiscreteSlider.swift in Sources */,
-				DC88CC4F1E46EAD10076AC65 /* TGPControlsTicksProtocol.swift in Sources */,
-				DC88CC4E1E46EAD10076AC65 /* TGPCamelLabels.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -199,6 +178,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -254,6 +234,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
